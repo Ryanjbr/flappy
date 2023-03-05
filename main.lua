@@ -42,6 +42,7 @@ require 'states/TitleScreenState'
 require 'Bird'
 require 'Pipe'
 require 'PipePair'
+require 'Medal'
 
 -- physical screen dimensions
 WINDOW_WIDTH = 1280
@@ -115,6 +116,7 @@ function love.load()
 
     -- initialize mouse input table
     love.mouse.buttonsPressed = {}
+
 end
 
 function love.resize(w, h)
